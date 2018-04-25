@@ -15,6 +15,7 @@ import { HeroService } from './hero.service';
 import {MessageComponent} from './message/message.component';
 import {MessageService} from './message.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 /*该providers数组告诉Angular创建一个单独的共享实例HeroService 并注入到要求它的任何类中。
 */
@@ -23,6 +24,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     AppComponent,
     DashboardComponent,
     HeroesComponent,
+    HeroSearchComponent,
     HeroDetailComponent,
     MessageComponent
   ],
